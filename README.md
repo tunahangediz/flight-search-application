@@ -17,4 +17,3 @@ db.json içinde tüm günler için uçuş olmadığından test için kullanabile
 
 ![Screenshot](public/SS1.png)
 ![Screenshot](public/SS3.png)
-# flight-search-application
