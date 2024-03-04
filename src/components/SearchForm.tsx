@@ -33,7 +33,7 @@ const SearchForm: React.FC = () => {
   const { departureDate, returnDate } = useParams();
 
   useEffect(() => {
-    fetch("http://localhost:3000/airports")
+    fetch("https://flight-api-kappa.vercel.app/airports")
       .then((response) => response.json())
       .then((data) => setAirports(data));
 
@@ -67,7 +67,6 @@ const SearchForm: React.FC = () => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="">
-      <DevTool control={control} />
       <label className="text-green-500 flex items-center mb-2 gap-1">
         <input
           type="checkbox"

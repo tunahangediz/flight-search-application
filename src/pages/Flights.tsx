@@ -34,8 +34,8 @@ const Flights = () => {
   console.log(flights, "flights");
 
   return (
-    <div className="w-full h-[100vh] ">
-      <div className="max-w-4xl flex flex-col w-full mx-auto">
+    <div className="w-full h-[100vh]">
+      <div className="max-w-4xl flex flex-col w-full mx-auto p-2 lg:p-0">
         <div className="bg-blue-950 w-full rounded-md mt-24 px-4 py-4">
           <div
             onClick={() => setShowSearchForm(!showSearchForm)}

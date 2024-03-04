@@ -23,7 +23,7 @@ const useFlightSearch = (
     }
 
     fetch(
-      `http://localhost:3000/flights?departureAirportCode=${from}&arrivalAirportCode=${to}&departureDate=${dateFormatter(
+      `https://flight-api-kappa.vercel.app/flights?departureAirportCode=${from}&arrivalAirportCode=${to}&departureDate=${dateFormatter(
         departureDate
       )}`
     )
@@ -32,7 +32,7 @@ const useFlightSearch = (
         console.log("One-way flights:", data);
         if (returnDate) {
           fetch(
-            `http://localhost:3000/flights?departureAirportCode=${to}&arrivalAirportCode=${from}&departureDate=${dateFormatter(
+            `https://flight-api-kappa.vercel.app/flights?departureAirportCode=${to}&arrivalAirportCode=${from}&departureDate=${dateFormatter(
               returnDate
             )}`
           )

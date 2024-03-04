@@ -9,7 +9,8 @@ Bu proje, kullanıcıların uçuş aramalarını yapmalarını ve sonuçları g�
 3. `npx json-server --watch db.json  --port 3000` komutu ile mock apiyi çalıştırın.
 4. `npm run dev` komutu ile projeyi başlatın.
 
-##Kullanım
+## Kullanım
+
 db.json içinde tüm günler için uçuş olmadığından test için kullanabilecek güzergah ve tarihler:
 
 1. IST-JFK Gidiş: 2024-02-10 - Dönüş: 2024-02-15
